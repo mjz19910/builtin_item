@@ -597,7 +597,7 @@ core.register_entity(":__builtin:item", {
 
 		-- check custom step function
 		if self:step_check_custom_step(dtime, moveresult) then
-			return -- overriden
+			return -- overridden
 		end
 
 		-- do general checks
